@@ -7,6 +7,6 @@ first try to use [ocicl](https://github.com/ocicl/ocicl) if available,
 then [quicklisp](https://quicklisp.org), then plain
 `asdf:load-system`.
 
-`trivial-system-loader` was written by Anthony Green and is
-distributed under the terms of the MIT license.  See the
+`trivial-system-loader` was written by Anthony Green and Michał "phoe"
+Herda, and is distributed under the terms of the MIT license.  See the
 `trivial-system-loader` source files for details.

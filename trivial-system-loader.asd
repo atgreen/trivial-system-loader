@@ -25,7 +25,7 @@
 
 (asdf:defsystem #:trivial-system-loader
   :description "A system installation/loading abstraction for Common Lisp"
-  :author "Anthony Green <green@moxielogic.com>"
+  :author "Anthony Green and Michał 'phoe' Herda"
   :license "MIT"
   :version (:read-file-form "version.sexp")
   :serial t
