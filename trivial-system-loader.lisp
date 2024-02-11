@@ -31,7 +31,7 @@
 (in-package :trivial-system-loader)
 
 (defun load-system (systems &key (verbose nil) (silent t))
-  "Load system SYSTEMS, potentially downloading it from an external
+  "Load system SYSTEMS, potentially downloading them from an external
  repository.  SYSTEMS may be a single system or a list of
  systems. Loader behavior is modified by VERBOSE and SILENT."
   (unless (listp systems)
